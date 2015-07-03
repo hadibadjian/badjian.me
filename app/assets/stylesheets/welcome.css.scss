@@ -20,8 +20,8 @@ body {
   text-align: right;
 }
 img {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .btn-default,
@@ -99,6 +99,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  img {
+    width: 30px;
+    height: 30px;
+  }
   .masthead-brand {
     float: left;
   }
